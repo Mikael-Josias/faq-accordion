@@ -22,3 +22,11 @@ body {
     background-image: url('../assets/background-pattern-desktop.svg');
     min-height: 300px;
 }
+
+.container {
+    background-color: var(--white);
+    padding: 24px;
+    margin: 0 auto;
+    width: clamp(450px, 600px, 700px);
+    transform: translateY(-100px);
+}
