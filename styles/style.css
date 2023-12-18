@@ -2,7 +2,7 @@
 
 :root {
     --primary-font: 'Work Sans', sans-serif;
-    --p-font-size: 16px;
+    --p-font-size: clamp(12px, 16px, 16px);
 
     --white: hsl(0, 0%, 100%);
     --light-pink: hsl(275, 100%, 97%);
@@ -10,4 +10,15 @@
     --dark-purple: hsl(292, 42%, 14%);
 
     --mobile-breakpoint: 375px;
+}
+
+body {
+    background-color: var(--light-pink);
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+.header-bg {
+    background-image: url('../assets/background-pattern-desktop.svg');
+    min-height: 300px;
 }
