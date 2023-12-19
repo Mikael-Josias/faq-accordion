@@ -34,7 +34,7 @@ body {
     border-radius: 12px;
     padding: 24px 24px 1px;
     margin: 0 auto;
-    width: clamp(355px, 80vw, 700px);
+    width: clamp(345px, 80vw, 700px);
     transform: translateY(-114px);
 }
 
@@ -109,5 +109,12 @@ body {
     100% {
         opacity: 1;
         margin-left: 0;
+    }
+}
+
+@media screen and (width <= 375px) {
+    .header-bg {
+        background-image: url('../assets/background-pattern-mobile.svg');
+        min-height: 236px;
     }
 }
