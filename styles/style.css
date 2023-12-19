@@ -89,8 +89,9 @@ body {
     cursor: pointer;
 }
 
-.accordion__title:hover {
+.accordion__title:hover, .accordion__title:focus {
     color: var(--grayish-purple);
+    outline: none;
 }
 
 .accordion__text {
